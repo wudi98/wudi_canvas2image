@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="html2canvas.min.js"></script>
+    <script type="text/javascript" src="canvas2image.js"></script>
+</head>
+<body>
+    <h2>原始HTML</h2>
+    <div style="background:red;width: 600px;" class="test">
+        <div style="background:green;">
+            <div style="background:blue;">
+                <div style="background:yellow;">
+                    <div style="background:orange;">
+                        6666666666666666666666666666666
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2 class="toCanvas"> <a href="javascript:void(0);"> 转成canvas </a></h2>
+    <h2 class="toPic"><a href="javascript:void(0);"> 转成图片 </a></h2>
+    <h5>
+        <label for="imgW">宽度:</label>
+        <input type="number" value="" id="imgW" placeholder="默认是原图宽度" />
+        <label for="imgH">高度:</label>
+        <input type="number" value="" id="imgH" placeholder="默认是原图高度" />
+        <label for="imgFileName">文件名:</label>
+        <input type="text" placeholder="文件名" id="imgFileName" />
+        <select id="sel">
+            <option value="png">png</option>
+            <option value="jpeg">jpeg</option>
+            <option value="bmp">bmp</option>
+        </select>
+        <button id="save">保存</button>
+    </h5>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
