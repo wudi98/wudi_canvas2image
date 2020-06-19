@@ -1,0 +1,29 @@
+{
+  "name": "wd-canvas2image",
+  "version": "0.0.12",
+  "author": "Brian<csdnwuxiaodi@qq.com>",
+  "description": "将canvas转换为image的实用包",
+  "keywords": [
+    "canvas",
+    "image",
+    "function",
+    "tools"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wudi98/wudi_canvas2image.git"
+  },
+  "homepage": "https://github.com/wudi98/wudi_canvas2image",
+  "bugs": {
+    "url": "https://github.com/wudi98/wudi_canvas2image/issues"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "dependencies": {
+    "html2canvas": "^1.0.0-rc.5",
+    "wd-canvas2image": "^0.0.10"
+  },
+  "license": "ISC"
+}
